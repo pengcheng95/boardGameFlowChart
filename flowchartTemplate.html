@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/custom.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Cutive" rel="stylesheet">
+    <style>
+        body {
+            margin-bottom: 60px;
+            padding-left: 10%;
+            padding-right: 10%;
+            padding-top: 15%;
+        }
+        
+        h1,
+        h2 {
+            /*font-family: 'Nunito', sans-serif;';*/
+            font-family: 'Cutive', serif;
+        }
+        
+        h1 {
+            font-size: 42px;
+            line-height: 50px;
+        }
+        
+        html {
+            position: relative;
+            min-height: 100%;
+        }
+        
+        body {
+            /* Margin bottom by footer height */
+            margin-bottom: 60px;
+        }
+        
+        .footer {
+            position: absolute;
+            bottom: 0;
+            margin-left: -12%;
+            width: 100%;
+            /* Set the fixed height of the footer here */
+            height: 60px;
+        }
+        
+        .btn-space {
+            margin-right: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <h1 class="text-center">{{message}}</h1>
+        <h4>&nbsp</h4>
+        <div class="col-sm-offset-4 col-sm-4 text-center">
+            <p> <a href={{linkYes}} class="btn btn-default btn-lg btn-space"> yes</a> <a href={{linkNo}} class="btn btn-default btn-lg"> no</a> </p>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="container">
+            <p class="text-muted">Built by Remix5 and Dalvor | About</p>
+        </div>
+    </footer>
+</body>
+
+</html>
