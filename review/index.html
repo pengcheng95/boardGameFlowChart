@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Reviews</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="tagsort.js" type="text/javascript" charset="utf-8"></script>
+    <meta name="description" content="Review for Board Games" />
+    <meta name="keywords" content="board games, review" />
+    <meta name="author" content="Codrops" />
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.3.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/style1.css" />
+    <script src="js/modernizr.custom.js"></script>
+    <link href="styles/tagsort.min.css" rel="stylesheet" type="text/css"></link>
+    <script src="scripts/jquery-2.1.3.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="scripts/tagsort.min.js" type="text/javascript" charset="utf-8"></script>
+    <script type="text/javascript">
+        $(function () {
+            $('div.tags-container').tagSort({
+                items: '.item'
+                , tagElement: 'span'
+                , tagClassPrefix: 'color-'
+                , sortType: 'single'
+            });
+        });
+    </script>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|PT+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nixie+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cutive" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans|Source+Sans+Pro' rel='stylesheet' type='text/css'> </head>
+<style>
+    h3,
+    h1,
+    h2,
+    h4 {
+        font-family: 'PT Sans', sans-serif;
+    }
+    
+    h1 {
+        font-size: 190%;
+    }
+    
+    h5 {
+        word-spacing: 130%;
+        font-size: 18px;
+        font-family: 'Open Sans', sans-serif;
+        line-height: 1.4em;
+    }
+    
+    .gameImage {
+        border-radius: 25px;
+    }
+    
+    .gameImageLong {
+        border-radius: 75px;
+    }
+    
+    #testing {
+        background-color: #1098F7;
+        color: white;
+    }
+    
+    #testing1 {
+        background-image: url(img/smallWorld.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <button id="menu-toggle" class="menu-toggle"><span>Menu</span></button>
+        <div id="theSidebar" class="sidebar">
+            <button class="close-button fa fa-fw fa-close"></button>
+            <div class="codrops-links"> <a class="codrops-icon codrops-icon--prev" href=".." title="Home"><span>Home</span></a> <a class="codrops-icon codrops-icon--drop" href=".." title="Home"><span>Home</span></a></div>
+            <h1><span>Reviews<span> Board Games</h1>
+            <p>&nbsp</p>
+            <p>&nbsp</p>
+            <div class="tags-container row"></div>
+        </div>
+        <div id="theGrid" class="main">
+            <section class="grid">
+                <header class="top-bar"> </header>
+                <a class="grid__item" data-item-id="1" data-item-tags="Blue" href="#">
+                    <h2 class="title title--preview">Monopoly</h2>
+                    <div class="loader"></div>
+                    <div class="meta meta--preview"><img class="meta__avatar" src="img/monopoly2.jpg" alt="author01" /> <span class="meta__date"><i class="fa fa-calendar-o"></i> 9 Apr</span> <span class="meta__reading-time"><i class="fa fa-clock-o"></i> 3 min read</span> </div>
+                </a>
+                <a class="grid__item" href="#">
+                    <h2 class="title title--preview">Small World</h2>
+                    <div class="loader"></div>
+                    <div class="meta meta--preview"><img class="meta__avatar" src="img/smallWorld.jpg" alt="author01" /> <span class="meta__date"><i class="fa fa-calendar-o"></i> 9 Apr</span> <span class="meta__reading-time"><i class="fa fa-clock-o"></i> 3 min read</span> </div>
+                </a>
+                <a class="grid__item" href="#">
+                    <h2 class="title title--preview">Citadels</h2>
+                    <div class="loader"></div>
+                    <div class="meta meta--preview"><img class="meta__avatar" src="http://lghttp.12309.nexcesscdn.net/805B35/magento/games/media/catalog/product/cache/7/image/66ffab2fe682907a17e1679a1175a522/c/i/citadels_4.jpg" alt="author01" /> <span class="meta__date"><i class="fa fa-calendar-o"></i> 9 Apr</span> <span class="meta__reading-time"><i class="fa fa-clock-o"></i> 3 min read</span> </div>
+                </a>
+                <a class="grid__item" href="#">
+                    <h2 class="title title--preview">Small World</h2>
+                    <div class="loader"></div>
+                    <div class="meta meta--preview"><img class="meta__avatar" src="img/smallWorld.jpg" alt="author01" /> <span class="meta__date"><i class="fa fa-calendar-o"></i> 9 Apr</span> <span class="meta__reading-time"><i class="fa fa-clock-o"></i> 3 min read</span> </div>
+                </a>
+                <a class="grid__item" href="#">
+                    <h2 class="title title--preview">Small World</h2>
+                    <div class="loader"></div>
+                    <div class="meta meta--preview"><img class="meta__avatar" src="img/smallWorld.jpg" alt="author01" /> <span class="meta__date"><i class="fa fa-calendar-o"></i> 9 Apr</span> <span class="meta__reading-time"><i class="fa fa-clock-o"></i> 3 min read</span> </div>
+                </a>
+                <a class="grid__item" href="#">
+                    <h2 class="title title--preview">Small World</h2>
+                    <div class="loader"></div>
+                    <div class="meta meta--preview"><img class="meta__avatar" src="img/smallWorld.jpg" alt="author01" /> <span class="meta__date"><i class="fa fa-calendar-o"></i> 9 Apr</span> <span class="meta__reading-time"><i class="fa fa-clock-o"></i> 3 min read</span> </div>
+                </a>
+                <a class="grid__item" href="#">
+                    <h2 class="title title--preview">Citadels</h2>
+                    <div class="loader"></div>
+                    <div class="meta meta--preview"><img class="meta__avatar" src="http://lghttp.12309.nexcesscdn.net/805B35/magento/games/media/catalog/product/cache/7/image/66ffab2fe682907a17e1679a1175a522/c/i/citadels_4.jpg" alt="author01" /> <span class="meta__date"><i class="fa fa-calendar-o"></i> 9 Apr</span> <span class="meta__reading-time"><i class="fa fa-clock-o"></i> 3 min read</span> </div>
+                </a>
+                <footer class="page-meta"> <span>Stay Tuned for more Reviews</span> </footer>
+            </section>
+            <section class="content">
+                <div class="scroll-wrap">
+                    <article class="content__item">
+                        <h1 class="text-center">Monopoly</h1>
+                        <div class="col-md-6 text-center"> <img class="gameImage" src="http://cdn.collider.com/wp-content/uploads/monopoly.jpg" alt="monopoly" style="width:300px;height:300px;">
+                            <h6>&nbsp</h6> <a href="#/start" class="btn btn-default btn-md center"> $18.79 on Amazon</a>
+                            <!--<p class="text-muted align-center">at time when review written</p>-->
+                        </div>
+                        <div class="col-md-6">
+                            <h3 class="text-left"><strong>Our Review</strong></h3>
+                            <h5><strong>Approachable: <br>Length: <br> Luck: <br> Player Interaction: <br>Replay Value: <br>Material Quality: <br> Fun: <br></strong></h5>
+                            <br>
+                            <h5>Players take the part of land owners, attempting to buy and then develop their land. Income is gained by other players visiting their properties and money is spent when they visit properties belonging to other players. When times get tough, players may have to mortgage their properties to raise cash for fines, taxes and other misfortunes. <br><br>Players take the part of land owners, attempting to buy and then develop their land. Income is gained by other players visiting their properties and money is spent when they visit properties belonging to other players. When times get tough, players may have to mortgage their properties to raise cash for fines, taxes and other misfortunes. <br><br> Players take the part of land owners, attempting to buy and then develop their land. Income is gained by other players visiting their properties and money is spent when they visit properties belonging to other players. When times get tough, players may have to mortgage their properties to raise cash for fines, taxes and other misfortunes. <br><br> Players take the part of land owners, attempting to buy and then develop their land. Income is gained by other players visiting their properties and money is spent when they visit properties belonging to other players. When times get tough, players may have to mortgage their properties to raise cash for fines, taxes and other misfortunes.</h5> </div>
+                    </article>
+                    <article class="content__item">
+                        <h1 class="text-center">Small World</h1>
+                        <div class="col-md-6 text-center">
+                            <p>&nbsp</p><img src="img/smallWorld.jpg" alt="monopoly" style="width:300px;height:300px;" class="gameImage">
+                            <h6>&nbsp</h6> <a href="#/start" class="btn btn-default btn-md center"> $18.79 on Amazon</a>
+                            <!--<p class="text-muted align-center">at time when review written</p>-->
+                        </div>
+                        <div class="col-md-6">
+                            <h3 class="text-left"><strong>Our Review</strong></h3>
+                            <h5><strong>Approachable: <br>Length: <br> Luck: <br> Player Interaction: <br>Replay Value: <br>Material Quality: <br> Fun: </strong><br></h5>
+                            <h5 class="text-left">Players take the part of land owners, attempting to buy and then develop their land. Income is gained by other players visiting their properties and money is spent when they visit properties belonging to other players. When times get tough, players may have to mortgage their properties to raise cash for fines, taxes and other misfortunes. <br><br>Players take the part of land owners, attempting to buy and then develop their land. Income is gained by other players visiting their properties and money is spent when they visit properties belonging to other players. When times get tough, players may have to mortgage their properties to raise cash for fines, taxes and other misfortunes. <br><br> Players take the part of land owners, attempting to buy and then develop their land. Income is gained by other players visiting their properties and money is spent when they visit properties belonging to other players. When times get tough, players may have to mortgage their properties to raise cash for fines, taxes and other misfortunes. <br><br> Players take the part of land owners, attempting to buy and then develop their land. Income is gained by other players visiting their properties and money is spent when they visit properties belonging to other players. When times get tough, players may have to mortgage their properties to raise cash for fines, taxes and other misfortunes.</h5> </div>
+                    </article>
+                    <article class="content__item">
+                        <h1 class="text-center">Small World</h1>
+                        <div class="col-md-6 text-center">
+                            <p>&nbsp</p><img src="img/smallWorld.jpg" alt="monopoly" style="width:300px;height:300px;" class="gameImage">
+                            <h6>&nbsp</h6> <a href="#/start" class="btn btn-default btn-md center"> $18.79 on Amazon</a>
+                            <!--<p class="text-muted align-center">at time when review written</p>-->
+                        </div>
+                        <div class="col-md-6">
+                            <h3 class="text-center"><strong>Our Review</strong></h3>
+                            <h5><strong>Approachable: <br>Length: <br> Luck: <br> Player Interaction: <br>Replay Value: <br>Material Quality: <br> Fun: </strong><br></h5>
+                            <h5 class="text-center">Players take the part of land owners, attempting to buy and then develop their land. Income is gained by other players visiting their properties and money is spent when they visit properties belonging to other players. When times get tough, players may have to mortgage their properties to raise cash for fines, taxes and other misfortunes. <br><br>Players take the part of land owners, attempting to buy and then develop their land. Income is gained by other players visiting their properties and money is spent when they visit properties belonging to other players. When times get tough, players may have to mortgage their properties to raise cash for fines, taxes and other misfortunes. <br><br> Players take the part of land owners, attempting to buy and then develop their land. Income is gained by other players visiting their properties and money is spent when they visit properties belonging to other players. When times get tough, players may have to mortgage their properties to raise cash for fines, taxes and other misfortunes. <br><br> Players take the part of land owners, attempting to buy and then develop their land. Income is gained by other players visiting their properties and money is spent when they visit properties belonging to other players. When times get tough, players may have to mortgage their properties to raise cash for fines, taxes and other misfortunes.</h5> </div>
+                    </article>
+                    <article class="content__item">
+                        <div class="container-fluid">
+                            <h1 class="text-center"><strong>Small World</strong></h1>
+                            <div class="col-md-1"> </div>
+                            <div class="col-md-8"> </div>
+                        </div>
+                        <div class="col-md-6 text-center">
+                            <p>&nbsp</p><img src="img/smallWorld.jpg" alt="monopoly" style="width:300px;height:300px;" class="gameImage">
+                            <h6>&nbsp</h6> <a href="#/start" class="btn btn-default btn-md center"> $18.79 on Amazon</a>
+                            <!--<p class="text-muted align-center">at time when review written</p>-->
+                        </div>
+                        <div class="col-md-6 text-center">
+                            <h4><strong>Approachable: <br><br>Length: <br><br> Luck: <br><br> Player Interaction: <br><br>Replay Value: <br><br>Material Quality: <br><br> Fun: </strong><br><br></h4> </div>
+                    </article>
+                    <article class="content__item">
+                        <div class="container-fluid">
+                            <div class="col-md-1"> </div>
+                            <div class="col-md-8">
+                                <h1 class="text-center"><strong>Small World</strong></h1> </div>
+                        </div>
+                        <div class="container-fluid">
+                            <div class="col-md-6 text-center">
+                                <p>&nbsp</p><img src="img/smallWorld.jpg" alt="monopoly" style="width:300px;height:300px;" class="gameImage">
+                                <h6>&nbsp</h6>
+                                <!--<a href="#/start" class="btn btn-default btn-md center"> $18.79 on Amazon</a>-->
+                                <!--<p class="text-muted align-center">at time when review written</p>-->
+                            </div>
+                            <div class="col-md-6 text-left">
+                                <p>&nbsp</p>
+                                <h4><strong>Approachable: <br><br>Length: <br><br> Luck: <br><br> Player Interaction: <br><br>Replay Value: <br><br>Material Quality: <br><br> Fun: </strong><br><br></h4> </div>
+                        </div>
+                        <div class="container-fluid">
+                            <div class="col-md-2"></div>
+                            <div class="col-md-8">
+                                <h3 class="text-left"><strong>Our Review</strong></h3>
+                                <h5 class="text-left">For as long as boardgames have been a household entity, Monopoly has been both iconic and notorious for being exactly what it is: a friendship-ruining, empire-building simulator. As of late though, the Hasbro classic has gotten most flack for being an impossible to finish game as well as a product that is just too mundane to really be enjoyable. Do such qualms really hold up though? The short and sweet answer is no!<br><br>
+                                
+                                When given the chance and played correctly with friends who know not to rage quit, Monopoly is an immensely entertaining game, but the problem is that most people actually do not play the game according to the original rules. While it is true that setting up the game itself can be rather inconvenient because there is always the age old problem of who will be the banker and who is willing to distribute the money, once the players are past this perilous step that usually derails attempts at playing Monopoly, the game actually progresses relatively smoothly; the setting up phase isn’t actually that daunting when people are willing to do it together. There are built in mechanics such as required property auctions and trading that speed up the game and ensure that there is always something going on. However, when players forego the auction mechanic or simply refuse to trade so people can get monopolies, that is usually when the game comes to a standstill. At first glance, people might blame Monopoly itself for allowing such an outcome, which might be partly true, but mainly, this is a user error and the main cause of why people don’t have fun. As an already extremely accessible game that is both affordable and  popular enough that everyone generally knows the basics of the game, people simply have to learn the lesser known but equally as important rules to maximize their fun. In fact, by forgetting certain rules and adding house rules such as money on Free Parking or the inability to collect rent while in jail, people actually prolong the game and wind up struggling to reach the end.<br><br>
+                                
+                                In other words, it is quite easy to get a group of friends together to play Monopoly but it is actually pretty hard to get the motivation to set up the game and actually finish it. Of course, as mentioned before, this isn’t necessarily the board game’s fault. An actual problem for Monopoly though is its lack of replayability. Even players who play the game correctly can at most probably muster up two games on a single board game night. This is due to the fact that with set up and more players, the game takes upwards of 1.5 hours to play per game. Moreover, each game is generally the same because Monopoly is not a complicated game that involves multiple scenarios or storylines. It works well as the simple, straightforward game that it is but it doesn’t necessarily mean that it was meant to be marathoned as a board game. Rather, it is one of those games where one individual wins, packs up the game, and then lords it over his friends for the rest of the night. <br><br>
+                                In terms of appearance, the Monopoly board is instantly recognizable and a classic in its own right, though its design is relatively simple and unimpressive. It conveys what it needs to through solid colors and basic images; the game really only lacks in artistic flair but that doesn’t hinder the gameplay by any stretch of the imagination. On the other hand though, the game pieces have always been finely crafted and well designed, as if someone had put a little more effort into this specific department. Plus, Monopoly as a game has been rereleased at least a hundred times with different themes and designs, all while the main core game mechanics have stayed intact. This means that players can simply pick their favorite version of the game, whether it is the Disney Pixar Edition, the Nintendo Edition, or basically any other edition that can be imagined, and still be playing the same exact game. While the board generally stays the same square shape, the images on the board and the pieces have all been redesigned to stay true to the material of its new theme. The possibilities for the appearance of Monopoly truly is unlimited.<br><br>
+                                
+                                At the end of the day, while Monopoly is a household name, it really isn’t given the credit that it deserves. If you don’t believe me, I’m sure any reader would have a Monopoly board game lying around. Dust it off, give that Rule Book a good once over, play a game and see if things don’t go smoother this time around!<br>
+</h5> </div>
+                        </div>
+                    </article>
+                    <article class="content__item">
+                        <div id="testing" class="container-fluid">
+                            <div class="col-md-1"> </div>
+                            <div class="col-md-8">
+                                <h1 class="text-center"><strong>Small World</strong></h1>
+                                <h4><strong>Approachable: <br><br>Length: <br><br> Luck: <br><br> Player Interaction: <br><br>Replay Value: <br><br>Material Quality: <br><br> Fun: </strong><br><br></h4> </div>
+                        </div>
+                        <div class="col-md-6">
+                            <h3 class="text-center"><strong>Our Review</strong></h3>
+                            <h5 class="text-center">Players take the part of land owners, attempting to buy and then develop their land. Income is gained by other players visiting their properties and money is spent when they visit properties belonging to other players. When times get tough, players may have to mortgage their properties to raise cash for fines, taxes and other misfortunes. <br><br>Players take the part of land owners, attempting to buy and then develop their land. Income is gained by other players visiting their properties and money is spent when they visit properties belonging to other players. When times get tough, players may have to mortgage their properties to raise cash for fines, taxes and other misfortunes. <br><br> Players take the part of land owners, attempting to buy and then develop their land. Income is gained by other players visiting their properties and money is spent when they visit properties belonging to other players. When times get tough, players may have to mortgage their properties to raise cash for fines, taxes and other misfortunes. <br><br> Players take the part of land owners, attempting to buy and then develop their land. Income is gained by other players visiting their properties and money is spent when they visit properties belonging to other players. When times get tough, players may have to mortgage their properties to raise cash for fines, taxes and other misfortunes.</h5> </div>
+                        <div class="col-md-6 text-center">
+                            <p>&nbsp</p><img src="img/smallWorld.jpg" alt="monopoly" style="width:300px;height:300px;" class="gameImage">
+                            <h6>&nbsp</h6> <a href="#/start" class="btn btn-default btn-md center"> $18.79 on Amazon</a>
+                            <!--<p class="text-muted align-center">at time when review written</p>-->
+                        </div>
+                    </article>
+                    <article class="content__item">
+                        <div class="container-fluid">
+                            <div class="col-md-1"> </div>
+                            <div class="col-md-8">
+                                <h1 class="text-center"><strong>Small World</strong></h1>
+                                <h4><strong>Approachable: <br><br>Length: <br><br> Luck: <br><br> Player Interaction: <br><br>Replay Value: <br><br>Material Quality: <br><br> Fun: </strong><br><br></h4> </div>
+                        </div>
+                        <div class="col-md-7">
+                            <h3 class="text-center"><strong>Our Review</strong></h3>
+                            <h5 class="text-left">For as long as boardgames have been a household entity, Monopoly has been both iconic and notorious for being exactly what it is: a friendship-ruining, empire-building simulator. As of late though, the Hasbro classic has gotten most flack for being an impossible to finish game as well as a product that is just too mundane to really be enjoyable. Do such qualms really hold up though? The short and sweet answer is no!<br><br>
+                                
+                                When given the chance and played correctly with friends who know not to rage quit, Monopoly is an immensely entertaining game, but the problem is that most people actually do not play the game according to the original rules. While it is true that setting up the game itself can be rather inconvenient because there is always the age old problem of who will be the banker and who is willing to distribute the money, once the players are past this perilous step that usually derails attempts at playing Monopoly, the game actually progresses relatively smoothly; the setting up phase isn’t actually that daunting when people are willing to do it together. There are built in mechanics such as required property auctions and trading that speed up the game and ensure that there is always something going on. However, when players forego the auction mechanic or simply refuse to trade so people can get monopolies, that is usually when the game comes to a standstill. At first glance, people might blame Monopoly itself for allowing such an outcome, which might be partly true, but mainly, this is a user error and the main cause of why people don’t have fun. As an already extremely accessible game that is both affordable and  popular enough that everyone generally knows the basics of the game, people simply have to learn the lesser known but equally as important rules to maximize their fun. In fact, by forgetting certain rules and adding house rules such as money on Free Parking or the inability to collect rent while in jail, people actually prolong the game and wind up struggling to reach the end.<br><br>
+                                
+                                In other words, it is quite easy to get a group of friends together to play Monopoly but it is actually pretty hard to get the motivation to set up the game and actually finish it. Of course, as mentioned before, this isn’t necessarily the board game’s fault. An actual problem for Monopoly though is its lack of replayability. Even players who play the game correctly can at most probably muster up two games on a single board game night. This is due to the fact that with set up and more players, the game takes upwards of 1.5 hours to play per game. Moreover, each game is generally the same because Monopoly is not a complicated game that involves multiple scenarios or storylines. It works well as the simple, straightforward game that it is but it doesn’t necessarily mean that it was meant to be marathoned as a board game. Rather, it is one of those games where one individual wins, packs up the game, and then lords it over his friends for the rest of the night. <br><br>
+                                In terms of appearance, the Monopoly board is instantly recognizable and a classic in its own right, though its design is relatively simple and unimpressive. It conveys what it needs to through solid colors and basic images; the game really only lacks in artistic flair but that doesn’t hinder the gameplay by any stretch of the imagination. On the other hand though, the game pieces have always been finely crafted and well designed, as if someone had put a little more effort into this specific department. Plus, Monopoly as a game has been rereleased at least a hundred times with different themes and designs, all while the main core game mechanics have stayed intact. This means that players can simply pick their favorite version of the game, whether it is the Disney Pixar Edition, the Nintendo Edition, or basically any other edition that can be imagined, and still be playing the same exact game. While the board generally stays the same square shape, the images on the board and the pieces have all been redesigned to stay true to the material of its new theme. The possibilities for the appearance of Monopoly truly is unlimited.<br><br>
+                                
+                                At the end of the day, while Monopoly is a household name, it really isn’t given the credit that it deserves. If you don’t believe me, I’m sure any reader would have a Monopoly board game lying around. Dust it off, give that Rule Book a good once over, play a game and see if things don’t go smoother this time around!<br>
+
+
+
+</h5> </div>
+                        <div class="col-md-5 text-center">
+                            <p>&nbsp</p><img src="http://lghttp.12309.nexcesscdn.net/805B35/magento/games/media/catalog/product/cache/7/image/66ffab2fe682907a17e1679a1175a522/c/i/citadels_4.jpg" alt="monopoly" style="width:300px;height:300px;" class="gameImage">
+                            <h6>&nbsp</h6> <a href="#/start" class="btn btn-default btn-md center"> $18.79 on Amazon</a>
+                            <!--<p class="text-muted align-center">at time when review written</p>-->
+                        </div>
+                    </article>
+                    <article class="content__item"> <span class="category category--full">Love &amp; Hate</span>
+                        <h2 class="title title--full">The Things we Lost in the Fire</h2>
+                        <div class="meta meta--full"> <img class="meta__avatar" src="img/authors/2.png" alt="author02" /> <span class="meta__author">Christian Belverde</span> <span class="meta__date"><i class="fa fa-calendar-o"></i> 7 Apr</span> <span class="meta__reading-time"><i class="fa fa-clock-o"></i> 5 min read</span> </div>
+                        <p>Faulty psychic actions, dreams and wit are products of the unconscious mental activity, and like neurotic or psychotic manifestations represent efforts at adjustment to one’s environment. </p>
+                        <p>The slip of the tongue shows that on account of unconscious inhibitions the individual concerned is unable to express his true thoughts; the dream is a distorted or plain expression of those wishes which are prohibited in the waking states, and the witticism, owing to its veiled or indirect way of expression, enables the individual to obtain pleasure from forbidden sources. But whereas dreams, witticisms, and faulty actions give evidences of inner conflicts which the individual overcomes, the neurotic or psychotic symptom is the result of a failure and represents a morbid adjustment.</p>
+                        <p>The aforementioned psychic formations are therefore nothing but manifestations of the struggle with reality, the constant effort to adjust one’s primitive feelings to the demands of civilization. In spite of all later development the individual retains all his infantile psychic structures. Nothing is lost; the infantile wishes and primitive impulses can always be demonstrated in the grown-up and on occasion can be brought back to the surface. In his dreams the normal person is constantly reviving his childhood, and the neurotic or psychotic individual merges back into a sort of psychic infantilism through his morbid productions. The unconscious mental activity which is made up of repressed infantile material for ever tries to express itself. Whenever the individual finds it impossible to dominate the difficulties of the world of reality there is a regression to the infantile, and psychic disturbances ensue which are conceived as peculiar thoughts and acts. Thus the civilized adult is the result of his childhood or the sum total of his early impressions; psychoanalysis thus confirms the old saying: The child is father to the man.</p>
+                        <p>It is at this point in the development of psychoanalysis that the paths gradually broadened until they finally culminated in this work. There were many indications that the childhood of the individual showed a marked resemblance to the primitive history or the childhood of races. The knowledge gained from dream analysis and phantasies[7], when applied to the productions of racial phantasies, like myths and fairy tales, seemed to indicate that the first impulse to form myths was due to the same emotional strivings which produced dreams, fancies and symptoms[8]. Further study in this direction has thrown much light on our great cultural institutions, such as religion, morality, law and philosophy, all of which Professor Freud has modestly formulated in this volume and thus initiated a new epoch in the study of racial psychology.</p>
+                        <p>If I judge my readers’ impressions correctly, I dare say that after hearing all that was said about taboo they are far from knowing what to understand by it and where to store it in their minds. This is surely due to the insufficient information I have given and to the omission of all discussions concerning the relation of taboo to superstition, to belief in the soul, and to religion. On the other hand I fear that a more detailed description of what is known about taboo would be still more confusing; I can therefore assure the reader that the state of affairs is really far from clear. We may say, however, that we deal with a series of restrictions which these primitive races impose upon themselves; this and that is forbidden without any apparent reason; nor does it occur to them to question this matter, for they subject themselves to these restrictions as a matter of course and are convinced that any transgression will be punished automatically in the most severe manner. There are reliable reports that innocent transgressions of such prohibitions have actually been punished automatically. For instance, the innocent offender who had eaten from a forbidden animal became deeply depressed, expected his death and then actually died. The prohibitions mostly concern matters which are capable of enjoyment such as freedom of movement and unrestrained intercourse; in some cases they appear very ingenious, evidently representing abstinences and renunciations; in other cases their content is quite incomprehensible, they seem to concern themselves with trifles and give the impression of ceremonials. Something like a theory seems to underlie all these prohibitions, it seems as if these prohibitions are necessary because some persons and objects possess a dangerous power which is transmitted by contact with the object so charged, almost like a contagion. The quantity of this dangerous property is also taken into consideration. Some persons or things have more of it than others and the danger is precisely in accordance with the charge. The most peculiar part of it is that any one who has violated such a prohibition assumes the nature of the forbidden object as if he had absorbed the whole dangerous charge. This power is inherent in all persons who are more or less prominent, such as kings, priests and the newly born, in all exceptional physical states such as menstruation, puberty and birth, in everything sinister like illness and death and in everything connected with these conditions by virtue of contagion or dissemination.</p>
+                        <p>First of all it must be said that it is useless to question savages as to the real motivation of their prohibitions or as to the genesis of taboo. According to our assumption they must be incapable of telling us anything about it since this motivation is ‘unconscious’ to them. But following the model of the compulsive prohibition we shall construct the history of taboo as follows: Taboos are very ancient prohibitions which at one time were forced upon a generation of primitive people from without, that is, they probably were forcibly impressed upon them by an earlier generation. These prohibitions concerned actions for which there existed a strong desire. The prohibitions maintained themselves from generation to generation, perhaps only as the result of a tradition set up by paternal and social authority. But in later generations they have perhaps already become ‘organized’ as a piece of inherited psychic property. Whether there are such ‘innate ideas’ or whether these have brought about the fixation of the taboo by themselves or by co-operating with education no one could decide in the particular case in question. The persistence of taboo teaches, however, one thing, namely, that the original pleasure to do the forbidden still continues among taboo races. They therefore assume an _ambivalent attitude_ toward their taboo prohibitions; in their unconscious they would like nothing better than to transgress them but they are also afraid to do it; they are afraid just because they would like to transgress, and the fear is stronger than the pleasure. But in every individual of the race the desire for it is unconscious, just as in the neurotic.</p>
+                        <p>It seems like an obvious contradiction that persons of such perfection of power should themselves require the greatest care to guard them against threatening dangers, but this is not the only contradiction revealed in the treatment of royal persons on the part of savages. These races consider it necessary to watch over their kings to see that they use their powers in the right way; they are by no means sure of their good intentions or of their conscientiousness. A strain of mistrust is mingled with the motivation of the taboo rules for the king. “The idea that early kingdoms are despotisms”, says Frazer[59], “in which the people exist only for the sovereign, is wholly inapplicable to the monarchies we are considering. On the contrary, the sovereign in them exists only for his subjects: his life is only valuable so long as he discharges the duties of his position by ordering the course of nature for his people’s benefit. So soon as he fails to do so, the care, the devotion, the religious homage which they had hitherto lavished on him cease and are changed into hatred and contempt; he is ignominiously dismissed and may be thankful if he escapes with his life. Worshipped as a god one day, he is killed as a criminal the next. But in this changed behaviour of the people there is nothing capricious or inconsistent. On the contrary, their conduct is quite consistent. If their king is their god he is or should be, also their preserver; and if he will not preserve them he must make room for another who will. So long, however, as he answers their expectations, there is no limit to the care which they take of him, and which they compel him to take of himself. A king of this sort lives hedged in by ceremonious etiquette, a network of prohibitions and observances, of which the intention is not to contribute to his dignity, much less to his comfort, but to restrain him from conduct which, by disturbing the harmony of nature, might involve himself, his people, and the universe in one common catastrophe. Far from adding to his comfort, these observances, by trammelling his every act, annihilate his freedom and often render the very life, which it is their object to preserve, a burden and sorrow to him.”</p>
+                        <p>Excerpts from <a href="http://www.gutenberg.org/ebooks/41214">Totem and Taboo</a> by Sigmund Freud.</p>
+                    </article>
+                    <button class="close-button"><i class="fa fa-close"></i><span>Close</span></button>
+            </section>
+            </div>
+        </div>
+    </div>
+    <!-- /container -->
+    <script src="js/classie.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

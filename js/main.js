@@ -6,6 +6,9 @@ mainApp.config(function ($routeProvider) {
     }).when('/viewStudents', {
         templateUrl: 'viewStudents.html'
         , controller: 'StudentController'
+    }).when('/viewReview', {
+        templateUrl: 'review/index.html'
+        , controller: 'StudentController'
     }).when('/viewAllBoardGames', {
         templateUrl: 'viewAllBoardGames.html'
         , controller: 'StudentController'
