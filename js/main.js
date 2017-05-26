@@ -186,6 +186,78 @@ mainApp.config(function ($routeProvider) {
     }).when('/monopolyDeal', {
         templateUrl: 'gameRecTemplate.html'
         , controller: 'monopolyDealController'
+    }).when('/traditionalBoardGame', {
+        templateUrl: 'flowchartTemplate.html'
+        , controller: 'traditionalBoardGameController'
+    }).when('/settlingPLusExpanding', {
+        templateUrl: 'flowchartTemplate.html'
+        , controller: 'settlingPLusExpandingController'
+    }).when('/peacefulColinization', {
+        templateUrl: 'flowchartTemplate.html'
+        , controller: 'peacefulColinizationController'
+    }).when('/skeletalRights', {
+        templateUrl: 'flowchartTemplate.html'
+        , controller: 'skeletalRightController'
+    }).when('/catan', {
+        templateUrl: 'gameRecTemplate.html'
+        , controller: 'catanController'
+    }).when('/smallWorld', {
+        templateUrl: 'gameRecTemplate.html'
+        , controller: 'smallWorldController'
+    }).when('/risk', {
+        templateUrl: 'gameRecTemplate.html'
+        , controller: 'riskController'
+    }).when('/horrorsOfTheWorld', {
+        templateUrl: 'flowchartTemplate.html'
+        , controller: 'horrorsOfTheWorldController'
+    }).when('/takenoko', {
+        templateUrl: 'gameRecTemplate.html'
+        , controller: 'takenokoController'
+    }).when('/zombiesScary', {
+        templateUrl: 'flowchartTemplate.html'
+        , controller: 'zombiesScaryController'
+    }).when('/deadOfWinter', {
+        templateUrl: 'gameRecTemplate.html'
+        , controller: 'deadOfWinterController'
+    }).when('/whatAboutPandemic', {
+        templateUrl: 'flowchartTemplate.html'
+        , controller: 'whatAboutPandemicController'
+    }).when('/pandemic', {
+        templateUrl: 'gameRecTemplate.html'
+        , controller: 'pandemicController'
+    }).when('/betraylAtHouse', {
+        templateUrl: 'gameRecTemplate.html'
+        , controller: 'betraylAtHouseController'
+    }).when('/cardBasedGame', {
+        templateUrl: 'flowchartTemplate.html'
+        , controller: 'cardBasedGameController'
+    }).when('/teamGame', {
+        templateUrl: 'flowchartTemplate.html'
+        , controller: 'teamGameController'
+    }).when('/demonstrateSuperiorSkills', {
+        templateUrl: 'flowchartTemplate.html'
+        , controller: 'demonstrateSuperiorSkillsController'
+    }).when('/cranium', {
+        templateUrl: 'gameRecTemplate.html'
+        , controller: 'craniumController'
+    }).when('/taboo', {
+        templateUrl: 'gameRecTemplate.html'
+        , controller: 'tabooController'
+    }).when('/intellectualTriviaGame', {
+        templateUrl: 'flowchartTemplate.html'
+        , controller: 'intellectualTriviaGameController'
+    }).when('/trivialPursuit', {
+        templateUrl: 'gameRecTemplate.html'
+        , controller: 'trivialPursuitController'
+    }).when('/stackCatsGame', {
+        templateUrl: 'flowchartTemplate.html'
+        , controller: 'stackCatsController'
+    }).when('/catTower', {
+        templateUrl: 'gameRecTemplate.html'
+        , controller: 'catTowerController'
+    }).when('/scattergories', {
+        templateUrl: 'gameRecTemplate.html'
+        , controller: 'scattergoriesController'
     }).otherwise({
         redirectTo: '/home'
     });
@@ -209,8 +281,8 @@ mainApp.controller('StudentController', function ($scope) {
     $scope.boardGamesList = "asdfasdfasfd";
 });
 mainApp.controller('areChildrenGoingToPlayController', function ($scope) {
-    $scope.message = "Are children going to play?";
-    $scope.linkNo = "#/areChildrenGoingToPlay";
+    $scope.message = "are children going to play?";
+    $scope.linkNo = "#/traditionalBoardGame";
     $scope.linkYes = "#/reallyYoung";
 });
 mainApp.controller('reallyYoungController', function ($scope) {
@@ -279,7 +351,7 @@ mainApp.controller('fakeAsianController', function ($scope) {
     $scope.linkYes = "#/gomoku";
 });
 mainApp.controller('1v1Controller', function ($scope) {
-    $scope.message = "Do you want a one v. one game?";
+    $scope.message = "Do you want a one vs one game?";
     $scope.linkNo = "#/beardInBoard";
     $scope.linkYes = "#/highlySkilled";
 });
@@ -497,4 +569,124 @@ mainApp.controller('monopolyDealController', function ($scope) {
     $scope.message = "Monopoly Deal";
     $scope.linkAmazon = "https://www.amazon.com/Hasbro-B0965-Monopoly-Deal-Card/dp/B00NQQTZCO/ref=sr_1_1?s=toys-and-games&ie=UTF8&qid=1473914213&sr=1-1&keywords=monopoly+deal";
     $scope.linkPrice = "$6.96 on Amazon";
+});
+mainApp.controller('traditionalBoardGameController', function ($scope) {
+    $scope.message = "Do you want a more traditional board game?";
+    $scope.linkNo = "#/cardBasedGame";
+    $scope.linkYes = "#/settlingPLusExpanding";
+});
+mainApp.controller('settlingPLusExpandingController', function ($scope) {
+    $scope.message = "Do you enjoy games focuses on settling and expanding?";
+    $scope.linkNo = "#/horrorsOfTheWorld";
+    $scope.linkYes = "#/peacefulColinization";
+});
+mainApp.controller('peacefulColinizationController', function ($scope) {
+    $scope.message = "Do you believe in peaceful colinzation?";
+    $scope.linkNo = "#/skeletalRights";
+    $scope.linkYes = "#/catan";
+});
+mainApp.controller('skeletalRightController', function ($scope) {
+    $scope.message = "Do you believe in skeletal rights to own land?";
+    $scope.linkNo = "#/risk";
+    $scope.linkYes = "#/smallWorld";
+});
+mainApp.controller('catanController', function ($scope) {
+    $scope.message = "Catan";
+    $scope.linkAmazon = "https://www.amazon.com/Catan-Studios-MFG-3071-Edition/dp/B00U26V4VQ/ref=sr_1_1?s=toys-and-games&ie=UTF8&qid=1495775079&sr=1-1&keywords=catan";
+    $scope.linkPrice = "$34.35 on Amazon";
+});
+mainApp.controller('smallWorldController', function ($scope) {
+    $scope.message = "Small World";
+    $scope.linkAmazon = "https://www.amazon.com/Days-of-Wonder-DOW-7901/dp/B0024H7OF6/ref=sr_1_1?ie=UTF8&qid=1495775317&sr=8-1&keywords=small+world";
+    $scope.linkPrice = "$30.97 on Amazon";
+});
+mainApp.controller('riskController', function ($scope) {
+    $scope.message = "Risk";
+    $scope.linkAmazon = "https://www.amazon.com/Hasbro-B7404-Risk-Game/dp/B01ALHAIWG/ref=sr_1_1?s=toys-and-games&ie=UTF8&qid=1495775363&sr=1-1&keywords=risk";
+    $scope.linkPrice = "$19.89 on Amazon";
+});
+mainApp.controller('horrorsOfTheWorldController', function ($scope) {
+    $scope.message = "How about a game dealing with the horrors of the world?";
+    $scope.linkNo = "#/takenoko";
+    $scope.linkYes = "#/zombiesScary";
+});
+mainApp.controller('takenokoController', function ($scope) {
+    $scope.message = "Takenoko";
+    $scope.linkAmazon = "https://www.amazon.com/Asmodee-TAK01USASM-Takenoko-Board-Game/dp/B0049H9NVW/ref=sr_1_1?s=toys-and-games&ie=UTF8&qid=1495775700&sr=1-1&keywords=takenoko";
+    $scope.linkPrice = "$47.41 on Amazon";
+});
+mainApp.controller('zombiesScaryController', function ($scope) {
+    $scope.message = "Zombies scary enough?";
+    $scope.linkNo = "#/whatAboutPandemic";
+    $scope.linkYes = "#/deadOfWinter";
+});
+mainApp.controller('deadOfWinterController', function ($scope) {
+    $scope.message = "Dead of Winter";
+    $scope.linkAmazon = "https://www.amazon.com/Dead-of-Winter-Crossroads-Game/dp/B00HFKITJC/ref=sr_1_1?s=toys-and-games&ie=UTF8&qid=1495775891&sr=1-1&keywords=dead+of+winter";
+    $scope.linkPrice = "$49.36 on Amazon";
+});
+mainApp.controller('whatAboutPandemicController', function ($scope) {
+    $scope.message = "What about some sort of ... pandemic?";
+    $scope.linkNo = "#/betraylAtHouse";
+    $scope.linkYes = "#/pandemic";
+});
+mainApp.controller('pandemicController', function ($scope) {
+    $scope.message = "Pandemic";
+    $scope.linkAmazon = "https://www.amazon.com/Z-Man-Games-ZMG-71100-Pandemic/dp/B00A2HD40E/ref=sr_1_1?s=toys-and-games&ie=UTF8&qid=1495776579&sr=1-1&keywords=pandemic";
+    $scope.linkPrice = "$24.99 on Amazon";
+});
+mainApp.controller('betraylAtHouseController', function ($scope) {
+    $scope.message = "Betrayl at House on the Hill";
+    $scope.linkAmazon = "https://www.amazon.com/Betrayal-At-House-Hill-2nd/dp/B003HC9734/ref=sr_1_1?s=toys-and-games&ie=UTF8&qid=1495776622&sr=1-1&keywords=betrayal+at+house";
+    $scope.linkPrice = "$30.49 on Amazon";
+});
+mainApp.controller('cardBasedGameController', function ($scope) {
+    $scope.message = "Do you want a card-based game?";
+    $scope.linkNo = "#/teamGame";
+    $scope.linkYes = "#/cardBasedGame";
+});
+mainApp.controller('teamGameController', function ($scope) {
+    $scope.message = "Do you want to play a team game?";
+    $scope.linkNo = "#/intellectualTriviaGame";
+    $scope.linkYes = "#/demonstrateSuperiorSkills";
+});
+mainApp.controller('demonstrateSuperiorSkillsController', function ($scope) {
+    $scope.message = "Do you want a variety of ways to demonstrate your superior skills?";
+    $scope.linkNo = "#/taboo";
+    $scope.linkYes = "#/cranium";
+});
+mainApp.controller('craniumController', function ($scope) {
+    $scope.message = "Cranium";
+    $scope.linkAmazon = "https://www.amazon.com/Cranium-3-in-1-Game-Board/dp/B010LAUDIM/ref=sr_1_1?s=toys-and-games&ie=UTF8&qid=1495777482&sr=1-1&keywords=cranium";
+    $scope.linkPrice = "$39.99 on Amazon";
+});
+mainApp.controller('tabooController', function ($scope) {
+    $scope.message = "Taboo";
+    $scope.linkAmazon = "https://www.amazon.com/Hasbro-A4626-Taboo-Board-Game/dp/B00D4NJSBW/ref=sr_1_1?s=toys-and-games&ie=UTF8&qid=1495777552&sr=1-1&keywords=taboo";
+    $scope.linkPrice = "$11.49 on Amazon";
+});
+mainApp.controller('intellectualTriviaGameController', function ($scope) {
+    $scope.message = "Do you want an intellectual trivia game?";
+    $scope.linkNo = "#/stackCatsGame";
+    $scope.linkYes = "#/trivialPursuit";
+});
+mainApp.controller('trivialPursuitController', function ($scope) {
+    $scope.message = "Trivial Pursuit";
+    $scope.linkAmazon = "https://www.amazon.com/Trivial-Pursuit-Family-Edition-Game/dp/B00NQQTXNK/ref=sr_1_1?s=toys-and-games&ie=UTF8&qid=1495777754&sr=1-1&keywords=trivial+pursuit";
+    $scope.linkPrice = "$14.91 on Amazon";
+});
+mainApp.controller('stackCatsController', function ($scope) {
+    $scope.message = "How about a game where you stack cats?";
+    $scope.linkNo = "#/scattergories";
+    $scope.linkYes = "#/catTower";
+});
+mainApp.controller('catTowerController', function ($scope) {
+    $scope.message = "Cat Tower";
+    $scope.linkAmazon = "https://www.amazon.com/IDW-Games-NOV152838-Tower-Building/dp/B017OW3DQY/ref=sr_1_1?s=toys-and-games&ie=UTF8&qid=1495778204&sr=1-1&keywords=cat+tower";
+    $scope.linkPrice = "$12.48 on Amazon";
+});
+mainApp.controller('scattergoriesController', function ($scope) {
+    $scope.message = "Scattergories";
+    $scope.linkAmazon = "https://www.amazon.com/Scattergories-w-free-storage-bag/dp/B00K32QIDI/ref=sr_1_1?s=toys-and-games&ie=UTF8&qid=1495778258&sr=1-1-spons&keywords=scattergories&psc=1";
+    $scope.linkPrice = "$12.99 on Amazon";
 });
