@@ -11,45 +11,6 @@
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Cutive" rel="stylesheet">
     <style>
-        body {
-            margin-bottom: 60px;
-            padding-left: 10%;
-            padding-right: 10%;
-            padding-top: 15%;
-            /*background-color: #E9F1F7;*/
-        }
-        
-        h1,
-        h2 {
-            /*font-family: 'Nunito', sans-serif;';*/
-            font-family: 'Cutive', serif;
-        }
-        
-        h1 {
-            font-size: 42px;
-            line-height: 50px;
-            color: #373d3f;
-        }
-        
-        html {
-            position: relative;
-            min-height: 100%;
-        }
-        
-        body {
-            /* Margin bottom by footer height */
-            margin-bottom: 60px;
-        }
-        
-        .footer {
-            position: absolute;
-            bottom: 0;
-            margin-left: -12%;
-            width: 100%;
-            /* Set the fixed height of the footer here */
-            height: 60px;
-        }
-        
         .btn-space {
             margin-right: 30px;
         }
@@ -59,24 +20,61 @@
             color: white;*/
             color: #555f61;
         }
+        
+        .similarGame {
+            text-align: center;
+            width: 150px;
+            height: 160px;
+            border-radius: 30px;
+            background-color: white;
+            float: left;
+        }
+        
+        .similarGameImg {
+            width: 120px;
+            height: auto;
+            border-radius: 10px;
+        }
+        
+        .container-fluid {
+            padding-top: 14%;
+        }
+        
+        @media screen and (min-width: 0px) and (max-width: 700px) {
+            body {
+                padding-top: 10%;
+            }
+        }
     </style>
 </head>
 
 <body>
     <div class="container-fluid">
-        <!--<h2 class="text-muted text-center"> Try:<!--&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--></h2>
         <h1 class="text-center">Play: &nbsp;{{message}}</h1>
-        <h4>&nbsp</h4>
+        <h3 class="text-center">{{description}} </h3>
+        <h4>&nbsp;</h4>
         <div class="col-sm-offset-4 col-sm-4 text-center">
-            <p> <a href={{linkAmazon}} class="btn btn-default btn-lg btn-space"> {{linkPrice}}</a> </p>
+            <p> &nbsp;&nbsp;&nbsp;<a href={{linkAmazon}} class="btn btn-default btn-lg btn-space"> {{linkPrice}}</a> </p>
         </div>
         <div class="col-sm-offset-4 col-sm-4 text-center">
             <p class="text-muted small">at time when review written&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </p>
         </div>
-    </div>
+        <!--
+<div class="col-sm-offset-2 col-sm-8">
+    <h3 class="text-center">Similar Games&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </h3>
+    <div class="similarGame">
+        <h5>7 Wonders</h5> <img class="similarGameImg" src="{{image1}}" alt="{{image1Desc}}" /> </div>
+    <div class="similarGame">
+        <h5>San Juan</h5> <img class="similarGameImg" src="{{image1}}" alt="{{image1Desc}}" /> </div>
+    <div class="similarGame">
+        <h5>San Juan</h5> <img class="similarGameImg" src="{{image1}}" alt="{{image1Desc}}" /> </div>
+    <div class="similarGame">
+        <h5>San Juan</h5> <img class="similarGameImg" src="{{image1}}" alt="{{image1Desc}}" /> </div>
+</div>
+--></div>
     <footer class="footer">
         <div class="container">
-            <p class="text-muted">Built by Remix5 and Dalvor | About</p>
+            <p class="text-muted">Board Game Bros | <a href="about.html">About</a></p>
         </div>
     </footer>
 </body>

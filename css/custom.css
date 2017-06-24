@@ -1,61 +1,110 @@
-@import url('https://fonts.googleapis.com/css?family=Cutive');
-body {
+                @import url('https://fonts.googleapis.com/css?family=Cutive');
+                @import url('https://fonts.googleapis.com/css?family=Lato');
+                /*
+                body {
     margin-bottom: 60px;
     padding-left: 10%;
     padding-right: 10%;
 }
-
-h1,
-h2 {
-    font-family: 'Nunito', sans-serif;
-    font-family: 'Cutive', serif;
-    color: #373D34;
-}
-
-
-/*
-h1,
-h2 {
-    font-family: 'Nunito', sans-serif;
-    ';
-
-}
 */
-
-h1 {
-    font-size: 42px;
-    line-height: 50px;
-}
-
-html {
-    position: relative;
-    min-height: 100%;
-}
-
-body {
-    /* Margin bottom by footer height */
-    margin-bottom: 60px;
-}
-
-.footer {
-    position: absolute;
-    bottom: 0;
-    margin-left: -12%;
-    width: 100%;
-    /* Set the fixed height of the footer here */
-    height: 60px;
-}
-
-.container-fluid-body {
-    margin-top: 22%;
-}
-
-.page-header {}
-
-a {
-    color: #4d4d4d;
-}
-
-a:hover {
-    color: black;
-}
+                
+                h1,
+                h2 {
+                    /*    font-family: 'Nunito',
+sans-serif;*/
+                    font-family: 'Cutive', serif;
+                    color: #373D34;
+                }
+                
+                h3,
+                h4,
+                h5,
+                h6,
+                p {
+                    font-family: 'Lato', sans-serif;
+                }
+                
+                h1 {
+                    font-size: 42px;
+                    line-height: 50px;
+                }
+                
+                html {
+                    position: relative;
+                    min-height: 100%;
+                }
+                
+                body {
+                    /* Margin bottom by footer height */
+                    margin-bottom: 60px;
+                    width: 100%;
+                    padding=0;
+                    margin=0;
+                }
+                
+                .footer {
+                    position: absolute;
+                    bottom: 0;
+                    /* margin-left: -12%; */
+                    width: 100%;
+                    margin-left: 0;
+                    /* Set the fixed height of the footer here */
+                    height: 60px;
+                }
+                
+                .container-fluid-body {
+                    margin-top: 22%;
+                }
+                
+                .container-fluid {
+                    padding-left: 10%;
+                    padding-right: 10%;
+                }
+                
+                .page-header {}
+                
+                a {
+                    color: #4d4d4d;
+                }
+                
+                a:hover {
+                    color: black;
+                }
+                
+                @media screen and (min-width: 0px) and (max-width: 750px) {
+                    /* show it on small screens */
+                    h1,
+                    h2,
+                    h3,
+                    h4,
+                    h5,
+                    h6,
+                    p {
+                        font-size: smaller;
+                    }
+                    body {
+                        margin: 0;
+                        /* remove default margin */
+                        padding: 0;
+                        /* remove default padding */
+                        width: 100%;
+                        /* take full browser width */
+                        height: 100%;
+                        /* take full browser height*/
+                    }
+                    .button {
+                        font-size: 50%;
+                    }
+                    .footer {
+                        margin-left: 0;
+                    }
+                    .btn-lg {
+                        height: 36px;
+                        width: 120px;
+                        font-size: 12px;
+                    }
+                    .small {
+                        font-size: 7px;
+                        padding-right: 2%;
+                    }
+                }
