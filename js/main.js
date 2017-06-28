@@ -741,6 +741,7 @@ mainApp.controller('pandemicController', function ($scope) {
 mainApp.controller('betraylAtHouseController', function ($scope) {
     $scope.message = "Betrayl at House on the Hill";
     $scope.linkAmazon = "https://www.amazon.com/Betrayal-At-House-Hill-2nd/dp/B003HC9734/ref=sr_1_1?s=toys-and-games&ie=UTF8&qid=1495776622&sr=1-1&keywords=betrayal+at+house";
+    $scope.description = "Taking on the role of one of six explorers, players take turns exploring a haunted mansion and experiencing spooky scenarios, until ultimately, it is revealed that their was a betrayer among the team the whole time, meaning it is going to take teamwork to make it out of the house alive!";
     $scope.linkPrice = "$30.49 on Amazon";
 });
 mainApp.controller('cardBasedGameController', function ($scope) {
@@ -761,11 +762,13 @@ mainApp.controller('demonstrateSuperiorSkillsController', function ($scope) {
 mainApp.controller('craniumController', function ($scope) {
     $scope.message = "Cranium";
     $scope.linkAmazon = "https://www.amazon.com/Cranium-3-in-1-Game-Board/dp/B010LAUDIM/ref=sr_1_1?s=toys-and-games&ie=UTF8&qid=1495777482&sr=1-1&keywords=cranium";
+    $scope.description = "Cranium is a team game where players partake in a variety of games ranging from charades to clay molding in order to be the first group to reach the end of the board!";
     $scope.linkPrice = "$39.99 on Amazon";
 });
 mainApp.controller('tabooController', function ($scope) {
     $scope.message = "Taboo";
     $scope.linkAmazon = "https://www.amazon.com/Hasbro-A4626-Taboo-Board-Game/dp/B00D4NJSBW/ref=sr_1_1?s=toys-and-games&ie=UTF8&qid=1495777552&sr=1-1&keywords=taboo";
+    $scope.description = "In this team game, players are trying to get their teammates to guess the word that is listed on each card without using certain key words that are taboo to say!";
     $scope.linkPrice = "$11.49 on Amazon";
 });
 mainApp.controller('intellectualTriviaGameController', function ($scope) {
@@ -776,6 +779,7 @@ mainApp.controller('intellectualTriviaGameController', function ($scope) {
 mainApp.controller('trivialPursuitController', function ($scope) {
     $scope.message = "Trivial Pursuit";
     $scope.linkAmazon = "https://www.amazon.com/Trivial-Pursuit-Family-Edition-Game/dp/B00NQQTXNK/ref=sr_1_1?s=toys-and-games&ie=UTF8&qid=1495777754&sr=1-1&keywords=trivial+pursuit";
+    $scope.description = "In Trivial Pursuit, players get to show off how much they know by answering trivia questions from a variety of subjects!";
     $scope.linkPrice = "$14.91 on Amazon";
 });
 mainApp.controller('stackCatsController', function ($scope) {
@@ -786,11 +790,13 @@ mainApp.controller('stackCatsController', function ($scope) {
 mainApp.controller('catTowerController', function ($scope) {
     $scope.message = "Cat Tower";
     $scope.linkAmazon = "https://www.amazon.com/IDW-Games-NOV152838-Tower-Building/dp/B017OW3DQY/ref=sr_1_1?s=toys-and-games&ie=UTF8&qid=1495778204&sr=1-1&keywords=cat+tower";
+    $scope.description = "As the name implies, players simply stack cardboard cats to make a Cat Tower of sorts.";
     $scope.linkPrice = "$12.48 on Amazon";
 });
 mainApp.controller('scattergoriesController', function ($scope) {
     $scope.message = "Scattergories";
     $scope.linkAmazon = "https://www.amazon.com/Scattergories-w-free-storage-bag/dp/B00K32QIDI/ref=sr_1_1?s=toys-and-games&ie=UTF8&qid=1495778258&sr=1-1-spons&keywords=scattergories&psc=1";
+    $scope.description = "In Scattergories, players try to accumulate the most points by coming up with unique answers for specific cattergories. The twist is though that every round, the answers must start with a specific letter.";
     $scope.linkPrice = "$12.99 on Amazon";
 });
 mainApp.controller('casualPartyGameController', function ($scope) {
@@ -812,11 +818,13 @@ mainApp.controller('bangController', function ($scope) {
     $scope.message = "Bang";
     $scope.linkAmazon = "https://www.amazon.com/Da-Vinci-DVC-9100-Edition/dp/B001RU7UNW/ref=sr_1_1?ie=UTF8&qid=1495823288&sr=8-1&keywords=bang";
     $scope.linkPrice = "$12.64 on Amazon";
+    $scope.description = "In this wild west themed party game, players are given roles where they could find themselves on the side of the law, the outlaws, or even their own team. Either way though, players are going to have to Bang! it out to take control.";
 });
 mainApp.controller('citadelsController', function ($scope) {
     $scope.message = "Citadels";
     $scope.linkAmazon = "https://www.amazon.com/Fantasy-Flight-Games-MA04-Citadels/dp/158994030X/ref=sr_1_2?ie=UTF8&qid=1495823333&sr=8-2&keywords=citadels";
     $scope.linkPrice = "$39.95 on Amazon";
+    $scope.description = "Citadels is a party game where players take turns playing as different characters, each with their own unique, special abilities, in order to build the most properties and score the most points!";
 });
 mainApp.controller('completingSentencesForFunController', function ($scope) {
     $scope.message = "Are you into completing sentences for fun?";
@@ -832,11 +840,13 @@ mainApp.controller('applesToApplesController', function ($scope) {
     $scope.message = "Apples to Apples";
     $scope.linkAmazon = "https://www.amazon.com/Apples-PARTY-BOX-CARDS-Mattel/dp/B018OE6UYI/ref=sr_1_4?ie=UTF8&qid=1495823614&sr=8-4&keywords=apples+to+apples";
     $scope.linkPrice = "$28.85 on Amazon";
+    $scope.description = "In this PG-version of Cards Against Humanity, players take turns being the judge who flips over a subject card and then ultimately awarding a point to the player who turns in the best response cards, whether that means the funniest, the best fitting, or the wackiest.";
 });
 mainApp.controller('cardsAgainstHumanityController', function ($scope) {
     $scope.message = "Cards Against Humanity";
     $scope.linkAmazon = "https://www.amazon.com/s/ref=nb_sb_noss_1?url=search-alias%3Daps&field-keywords=cards+against+humanity";
     $scope.linkPrice = "$22.19 on Amazon";
+    $scope.description = "In this very not politically correct game, players flips over a subject card and choose a response card from their hand in order to make the most grotesque and offensive pairings possible!";
 });
 mainApp.controller('lookingForSomethingDifferentController', function ($scope) {
     $scope.message = "Are you looking for something different from games where you flip cards and people laugh?";
@@ -847,11 +857,13 @@ mainApp.controller('somethingDifferentController', function ($scope) {
     $scope.message = "Something Different";
     $scope.linkAmazon = "https://www.amazon.com/NA-Something-Different/dp/B00FF9IS4Q/ref=sr_1_2?ie=UTF8&qid=1495823951&sr=8-2&keywords=something+different+game";
     $scope.linkPrice = "$10.00 on Amazon";
+    $scope.description = "Something DIfferent is a card game where the main objective is to get rid of all the cards in one's hand while completing goofy tasks along the way, whether that means speaking in an accent, answering trivia about each other, or seeing who can hold their hand up the longest.";
 });
 mainApp.controller('billionaireBansheeController', function ($scope) {
     $scope.message = "Billionaire Banshee";
     $scope.linkAmazon = "https://www.amazon.com/Breaking-Games-BGZ1549-Billionaire-Banshee/dp/B00U2VTH3I/ref=sr_1_1?ie=UTF8&qid=1495823994&sr=8-1&keywords=billionaire+banshee";
     $scope.linkPrice = "$25.00 on Amazon";
+    $scope.description = "In Billionaire Banshee, players roleplay as a single bachelor that runs into individuals with interesting perks and really, really odd quirks. At the same time, the other players just guess if the couple would be a match made in heaven or they would simply pass each other by.";
 });
 mainApp.controller('superStrategyIntensiveController', function ($scope) {
     $scope.message = "Do you want a super strategy intensive game then?";
@@ -884,16 +896,19 @@ mainApp.controller('harbourController', function ($scope) {
     $scope.message = "Harbour";
     $scope.linkAmazon = "https://www.amazon.com/Tasty-Minstrel-Games-Harbour-Board/dp/1938146786/ref=sr_1_1?ie=UTF8&qid=1495824585&sr=8-1&keywords=harbour+board+game";
     $scope.linkPrice = "$17.77 on Amazon";
+    $scope.description = "Playing as a variety of different harbour masters with all different, unique, special abilities,, players must organize their workers and maximize their resources in order to construct buildings that are worth the most points!";
 });
 mainApp.controller('dominionController', function ($scope) {
     $scope.message = "Dominion";
     $scope.linkAmazon = "https://www.amazon.com/Dominion-2nd-Edition-Board-Game/dp/B01LYLIS2U/ref=sr_1_2?s=toys-and-games&ie=UTF8&qid=1495824628&sr=1-2&keywords=dominion";
     $scope.linkPrice = "$32.37 on Amazon";
+    $scope.description = "Made in 2008 by Donald X Vaccarino, Domion is an innovative, deck-building game that has player striving to chain together card combos that can help them buy Victory Points.";
 });
 mainApp.controller('7WonderDuelController', function ($scope) {
     $scope.message = "7 Wonder Duel";
     $scope.linkAmazon = "https://www.amazon.com/7-Wonders-Duel-Board-Game/dp/B014DMSTXK/ref=sr_1_1?s=toys-and-games&ie=UTF8&qid=1495824678&sr=1-1&keywords=7+wonder+duel";
     $scope.linkPrice = "$26.99 on Amazon";
+    $scope.description = "By incorporating and improving upon many of the elements from its parent game, 7 Wonders, 7 Wonders: Duel has both players advancing through three ages. Through improvements in there military and science and construncting wonders, players compete for the greatest civilization.";
 });
 mainApp.controller('finishIn10MinController', function ($scope) {
     $scope.message = "Do you want a game you can finish in 10 minutes?";
@@ -904,9 +919,11 @@ mainApp.controller('coupController', function ($scope) {
     $scope.message = "Coup";
     $scope.linkAmazon = "https://www.amazon.com/Indie-Boards-Cards-COU1IBC-Dystopian/dp/B00GDI4HX4/ref=sr_1_1?s=toys-and-games&ie=UTF8&qid=1495824932&sr=1-1&keywords=coup";
     $scope.linkPrice = "$8.03 on Amazon";
+    $scope.description = "In this game that could be described as a more in depth, card-game version of rock, paper, scissors, players strive to be the last player standing as they try to pedict their opponenet's actions to assassinate charcters while avoiding getting killed themselves.";
 });
 mainApp.controller('munchkinsController', function ($scope) {
     $scope.message = "Munchkin";
     $scope.linkAmazon = "https://www.amazon.com/Steve-Jackson-Games-1483SJG-Munchkin/dp/B004U7JJWE/ref=sr_1_1?s=toys-and-games&ie=UTF8&qid=1495824954&sr=1-1&keywords=munchkins";
     $scope.linkPrice = "$19.99 on Amazon";
+    $scope.description = "In this goofy and witty card-based version of Dungeons and Dragons, Munchkins has its players kicking down doors, looting rooms, and fighting monsters in order to be the first to reach level 10.";
 });
